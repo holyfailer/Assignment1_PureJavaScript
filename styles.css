@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.balanceDiv {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.getLoadBtn {
+    background-color: #ff0000;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
