@@ -15,11 +15,13 @@ h1 {
 button {
     font-size: 16px;
     padding: 10px 20px;
+    
     background-color: #007BFF;
     color: #fff;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    margin: 2px;
 }
 
 button.getLoadBtn {
@@ -28,4 +30,11 @@ button.getLoadBtn {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }

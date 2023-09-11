@@ -24,12 +24,32 @@
         
         <h1>Work</h1>
         <div class="payDiv" id="payDiv"></div>
-        <button id= "workBankBtn" class="workBankBtn" onclick="transferPayToBank()">Tranfer to Bank</button>
-        <button id ="workBtn" class="workBtn" onclick="work()">Work</button>
-        <button  id="repayLoanBtn" class="repayLoanBtn" style="display: none;" onclick="payLoan()">Repay load</button>
+         <div class="buttonContainer">
+            <button id= "workBankBtn" class="workBankBtn" onclick="transferPayToBank()">Tranfer to Bank</button>
+            <button id ="workBtn" class="workBtn" onclick="work()">Work</button>
+            <button  id="repayLoanBtn" class="repayLoanBtn" style="display: none;" onclick="payLoan()">Repay load</button>
+         </div>
+
+
      </div>
+
+
+     <div>
+      <h2>Laptop Selection</h2>
+      <select id="laptopSelect"></select>
+      <div id="features"></div>
+  </div>
+
+  <div>
+      <h2>Info Section</h2>
+      <img id="laptopImage" src="" alt="Laptop Image">
+      <h3 id="laptopName"></h3>
+      <p id="laptopDescription"></p>
+      <p id="laptopPrice"></p>
+      <button id="buyNowBtn">Buy Now</button>
+  </div>
     
 
-     <script src="script.js"></script>
+     <script type="module" src="mainScript.js"></script>
 </body>
 </html>
